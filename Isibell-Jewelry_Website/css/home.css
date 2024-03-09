@@ -1,0 +1,98 @@
+@import'nav.css';
+
+.principal-section{
+    width:100%;
+    height: calc(100vh - 120px);
+    background-image: url('../img/nr1.jpg');
+    display: flex;
+    margin-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newProducts{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    font-family: Georgia;
+
+}
+.newProducts-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-family: Georgia;
+}
+
+.newProducts-container{
+    padding: 0  10vw;
+    display: flex;
+   
+    
+}
+
+.newProducts-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.newProducts-image{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  
+}
+
+.card1{
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.card-btn{
+   
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    position: center;
+}
+
+.newProducts-card:hover .card-btn{
+    opacity:1;
+}
+
+.card-btn:hover{
+    background: gray;
+    background-color: #839cef;
+    
+}
+
+.text-card1{
+    text-align: center;
+    text-indent: 120px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-descr{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+         
+}
+
+.card-descr:hover{
+    background: #eee;
+}
